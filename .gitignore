@@ -1,0 +1,8 @@
+# Executable files
+*.[oa]
+
+# Temporary files
+*~
+
+# Ignore backup files
+bk/
