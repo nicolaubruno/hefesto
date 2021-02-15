@@ -6,3 +6,4 @@ Web application to handle with experiments of physics in real time. The system h
 - (01) **Login**: ;
 - (02) **Experiments**: ;
 - (03) **Pendulum Options**: ;
+- (04) **Scheduler**: ;
