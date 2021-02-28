@@ -1,44 +1,9 @@
-/**
-/** Fonts
-**/
 
-@import url("fonts.css");
+/************/
+/** Header **/
+/************/
 
-/**
-/** General
-**/
-
-.centre {
-    width: 1024px;
-    margin: 0 auto;
-    display: block; 
-    overflow: auto;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {    
-    font-family: Ubuntu;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12pt;
-}
-
-hr.end{
-    clear: both;
-    width: 100%;
-    height: 1;
-    border: none;
-}
-
-/**
-/** Header
-**/
-
-#head{
+#header{
     width: 100%;
     height: 150px;
     min-width: 1024px;
@@ -49,13 +14,13 @@ hr.end{
 
 /* Logo */
 
-#head-logo{
+#header-logo{
     height: 150px;
     float: left;
     width: 200px;
 }
 
-#head-logo img{
+#header-logo img{
     margin: 35px;
     height: 80px;
     width: 145px;
@@ -63,7 +28,7 @@ hr.end{
 
 /* Menu */
 
-#head-menu{
+#header-menu{
     width: 609px;
     float: left;
     position: relative;
@@ -73,18 +38,18 @@ hr.end{
     z-index: 2;
 }
 
-#head-menu ul{
+#header-menu ul{
     list-style: none;
     float: none;
     display: inline-block;
 }
 
-#head-menu ul li{
+#header-menu ul li{
     position: relative;
     float: left;
 }
 
-#head-menu ul li a{
+#header-menu ul li a{
     display:block;
     margin: 0 20px;
     padding: 40px 0 10px 0;
@@ -94,7 +59,7 @@ hr.end{
     color: #646363;
 }
 
-#head-menu ul li a:hover{
+#header-menu ul li a:hover{
     padding-right: 10px;
     padding-left: 10px;
     margin-right: 10px;
@@ -102,14 +67,14 @@ hr.end{
     transition: margin 0.5s, padding 0.5s;
 }
 
-#head-menu ul li a.active, #head-menu ul li a.active:hover{
+#header-menu ul li a.active, #header-menu ul li a.active:hover{
     color: #f89642;
     border-color: #f89642;
 }
 
 /* Title */
 
-#head-title{
+#header-title{
     z-index: -1;
     height: 40px;
     position: absolute;
@@ -119,7 +84,7 @@ hr.end{
     text-align: center;
 }
 
-#head-title h1{
+#header-title h1{
     color: #646363;
     text-transform: uppercase;
     font-size: 30px;
@@ -130,26 +95,26 @@ hr.end{
 
 /* Account */
 
-#head-account{
+#header-account{
     height: 110px;
     float: right;
     width: 200px;
     padding: 20px 0;
 }
 
-#head-account .user-name{
+#header-account .user-name{
     height: 30px;
     vertical-align: middle;
     margin-bottom: 10px;
 }
 
-#head-account .user-name img{
+#header-account .user-name img{
     height: 30px;
     width: 30px;
     float: left;
 }
 
-#head-account .user-name p{
+#header-account .user-name p{
     color: #414042;
     font-size: 14pt;
     float: left;
@@ -162,13 +127,13 @@ hr.end{
     padding-left: 15px;
 }
 
-#head-account .buttom{
+#header-account .buttom{
     float: left;
     width: 100%;
     margin-bottom: 5px;
 }
 
-#head-account .buttom a{
+#header-account .buttom a{
     text-decoration: none;
     font-size: 14pt;
     text-align:center;
@@ -181,7 +146,7 @@ hr.end{
     border-radius: 10px;
 }
 
-#head-account .buttom a:hover{
+#header-account .buttom a:hover{
     background: #f89642;
     color: #fff;
     transition: background 0.5s, color 0.5s;
