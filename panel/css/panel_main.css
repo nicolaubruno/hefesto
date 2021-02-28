@@ -1,0 +1,186 @@
+/**
+/** Fonts
+**/
+
+@import url("fonts.css");
+
+/**
+/** General
+**/
+
+.centre {
+    width: 1024px;
+    margin: 0 auto;
+    display: block; 
+    overflow: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+hr.end{
+    clear: both;
+    width: 100%;
+    height: 1;
+    border: none;
+}
+
+/**
+/** Header
+**/
+
+#head{
+    width: 100%;
+    height: 150px;
+    min-width: 1024px;
+    border-top: solid 10px #414042;
+    border-bottom: double 5px #d3d2d2;
+    position: relative;
+}
+
+/* Logo */
+
+#head-logo{
+    height: 150px;
+    float: left;
+    width: 200px;
+}
+
+#head-logo img{
+    margin: 35px;
+    height: 80px;
+    width: 145px;
+}
+
+/* Menu */
+
+#head-menu{
+    width: 609px;
+    float: left;
+    position: relative;
+    height: 110px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#head-menu ul{
+    list-style: none;
+    float: none;
+    display: inline-block;
+}
+
+#head-menu ul li{
+    position: relative;
+    float: left;
+}
+
+#head-menu ul li a{
+    display:block;
+    margin: 0 20px;
+    padding: 40px 0 10px 0;
+    border-bottom: solid 2px #646363;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #646363;
+}
+
+#head-menu ul li a:hover{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: margin 0.5s, padding 0.5s;
+}
+
+#head-menu ul li a.active, #head-menu ul li a.active:hover{
+    color: #f89642;
+    border-color: #f89642;
+}
+
+/* Title */
+
+#head-title{
+    height: 40px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#head-title h1{
+    color: #646363;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: solid 5px #f89642;
+    display: inline;
+}
+
+/* Account */
+
+#head-account{
+    height: 110px;
+    float: right;
+    width: 200px;
+    padding: 20px 0;
+}
+
+#head-account .user-name{
+    height: 30px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+#head-account .user-name img{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+#head-account .user-name p{
+    color: #414042;
+    font-size: 14pt;
+    float: left;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-weight: 500;
+    width: 155px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#head-account .buttom{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#head-account .buttom a{
+    text-decoration: none;
+    font-size: 14pt;
+    text-align:center;
+    line-height: 30px;
+    border: solid 2px #f89642;
+    display: block;
+    color: #646363;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#head-account .buttom a:hover{
+    background: #f89642;
+    color: #fff;
+    transition: background 0.5s, color 0.5s;
+}
