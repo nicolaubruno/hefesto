@@ -70,6 +70,7 @@ hr.end{
     height: 110px;
     overflow: hidden;
     text-align: left;
+    z-index: 2;
 }
 
 #head-menu ul{
@@ -109,6 +110,7 @@ hr.end{
 /* Title */
 
 #head-title{
+    z-index: -1;
     height: 40px;
     position: absolute;
     bottom: -6px;
